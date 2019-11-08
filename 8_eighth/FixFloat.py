@@ -17,9 +17,3 @@ def fix(n):
                 return result
         return wrapper
     return decorator
- 
-@fix(4)
-def aver(*args, sign=1):
-    return sum(args)*sign
-
-print(aver(2.45675901, 3.22656321, 3.432654345, 4.075463224, sign=-1))
